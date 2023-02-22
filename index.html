@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Food-site</title>
+        <link rel="icon" href="./image/favicon-32x32.png" />
+        <!-- bootstrap css -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+     "
+        />
+        <!-- Own css -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body onscroll="changebg()">
+        <!-- container start -->
+        <div class="container-fluid min-vh-100 p-0">
+            <div class="banner_bg bg_property min-vh-100 padding_top">
+                <!-- navbar start -->
+                <nav
+                    class="navbar navbar-expand-lg bg-body-light fixed-top"
+                    id="navbg"
+                >
+                    <div class="container-fluid px-5">
+                        <a class="navbar-brand text-white" href="#"
+                            ><img src="./image/logo/logo-white.png" alt=""
+                        /></a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarText"
+                            aria-controls="navbarText"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span
+                                class="navbar-toggler-icon navbar-dark"
+                            ></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item me-xl-5">
+                                    <a
+                                        class="nav-link active text-white fw-semibold"
+                                        aria-current="page"
+                                        href="#"
+                                        >ABOUT</a
+                                    >
+                                </li>
+                                <li class="nav-item me-xl-5">
+                                    <a
+                                        class="nav-link text-white fw-semibold"
+                                        href="#"
+                                        >SERVICES</a
+                                    >
+                                </li>
+                                <li class="nav-item me-xl-5">
+                                    <a
+                                        class="nav-link text-white fw-semibold"
+                                        href="#"
+                                        >MENU</a
+                                    >
+                                </li>
+                                <li class="nav-item me-xl-5">
+                                    <a
+                                        class="nav-link text-white fw-semibold"
+                                        href="#"
+                                        >GALLERY</a
+                                    >
+                                </li>
+                                <li class="nav-item me-xl-5">
+                                    <a
+                                        class="nav-link text-white fw-semibold"
+                                        href="#"
+                                        >CHEFS</a
+                                    >
+                                </li>
+                                <li class="nav-item me-xl-5">
+                                    <a
+                                        class="nav-link text-white fw-semibold"
+                                        href="#"
+                                        >BLOG</a
+                                    >
+                                </li>
+                                <li class="nav-item me-xl-5">
+                                    <a
+                                        class="nav-link text-white fw-semibold"
+                                        href="#"
+                                        >CONTACT</a
+                                    >
+                                </li>
+                                <li class="nav-item me-xl-5">
+                                    <a
+                                        class="nav-link text-white btn p-1 btn-warning rounded-0 px-3"
+                                        href="#"
+                                        >BOOK NOW</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- navbar ends -->
+                <!-- icon start -->
+                <div class="py-sm-3 text-end d-md-block d-none">
+                    <div>
+                        <div class="d-inline bg-dark p-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="clr_icon"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <div class="d-inline bg-dark p-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="clr_icon"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- icon ends -->
+                <!-- carosel/first-page  start -->
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0"
+                            class="active carosel_ind"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                        ></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active carousel_ht">
+                            <!-- banner box-1 start -->
+                            <div class="container-fluid row p-0 m-0 mt-5">
+                                <div class="col-lg-5"></div>
+                                <div
+                                    class="col-lg-5 text-white bg-danger p-3 text-lg-start"
+                                >
+                                    <div
+                                        class="p-5 border border-white border-3"
+                                    >
+                                        <h1 class="fw-bold lg_font m-0">
+                                            DELICIOUS
+                                        </h1>
+                                        <h1 class="fw-bold lg_font m-0">
+                                            BREAKFAST
+                                        </h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Hic
+                                            laboriosam dolore eum maiores
+                                            doloremque magnam ratione quo
+                                            cupiditate fuga mollitia minima qui?
+                                        </p>
+                                        <a
+                                            href="#"
+                                            class="btn btn-outline-light p-2"
+                                            >Discover Menu</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- banner box-1 ends -->
+                        </div>
+                        <div class="carousel-item carousel_ht">
+                            <!-- banner box-2 start -->
+
+                            <div class="container-fluid p-0 m-0 row mt-5">
+                                <div class="col-lg-5"></div>
+                                <div
+                                    class="col-lg-5 text-white bg-danger p-3 text-lg-start"
+                                >
+                                    <div
+                                        class="p-5 border border-white border-3"
+                                    >
+                                        <h1 class="fw-bold lg_font m-0">
+                                            DELICIOUS
+                                        </h1>
+                                        <h1 class="fw-bold lg_font m-0">
+                                            BREAKFAST
+                                        </h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Hic
+                                            laboriosam dolore eum maiores
+                                            doloremque magnam ratione quo
+                                            cupiditate fuga mollitia minima qui?
+                                        </p>
+                                        <a
+                                            href="#"
+                                            class="btn btn-outline-light p-2"
+                                            >Discover Menu</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- banner box-2 ends -->
+                        </div>
+                        <div class="carousel-item carousel_ht">
+                            <!-- banner box-3 start -->
+
+                            <div class="container-fluid p-0 m-0 row mt-5">
+                                <div class="col-lg-5"></div>
+                                <div
+                                    class="col-lg-5 text-white bg-danger p-3 text-lg-start"
+                                >
+                                    <div
+                                        class="p-5 border border-white border-3"
+                                    >
+                                        <h1 class="fw-bold lg_font m-0">
+                                            DELICIOUS
+                                        </h1>
+                                        <h1 class="fw-bold lg_font m-0">
+                                            BREAKFAST
+                                        </h1>
+                                        <p class="">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Hic
+                                            laboriosam dolore eum maiores
+                                            doloremque magnam ratione quo
+                                            cupiditate fuga mollitia minima qui?
+                                        </p>
+                                        <a
+                                            href="#"
+                                            class="btn btn-outline-light p-2"
+                                            >Discover Menu</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- banner box-3 ends -->
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- carosel/first-page  end -->
+            </div>
+
+            <!-- Second page start -->
+            <div class="container-fluid p-0 padding_top min-vh-100 m-0">
+                <div class="container-fluid p-0 m-0 row text-center">
+                    <!-- second-page img -->
+                    <div class="col-lg-6 p-0 mb-5">
+                        <img
+                            src="./image/content-50.jpg"
+                            alt=""
+                            class="img-fluid w-sm-100"
+                        />
+                    </div>
+                    <!-- second-page img -->
+                    <!-- second-page content -->
+                    <div class="col-lg-4 text-lg-start p-0 align-self-center">
+                        <p class="fs-1 lh-1 heading_color">
+                            The best food in town at one of the best
+                            locations!!!
+                        </p>
+                        <p class="fs-5 text-secondary">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Saepe nisi aspernatur iusto voluptates autem.
+                        </p>
+                        <p class="text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptate deserunt deleniti facere veritatis
+                            enim cum voluptatum? Quod reprehenderit, aliquid
+                            fugiat sequi animi nulla. Earum saepe repellat
+                            provident quaerat est dicta alias. Laboriosam
+                            eligendi soluta ex! Laborum ad unde nostrum quo.
+                        </p>
+                        <div>
+                            <a
+                                href=""
+                                class="btn btn-outline-warning rounded-pill"
+                                >EXPLORE MENU
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke=""
+                                    class="icon_width"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- second-page content -->
+                </div>
+            </div>
+            <!-- Second page end -->
+            <!-- Third-page start -->
+            <div
+                class="container-fluid min-vh-100 border-top border-secondary-subtle p-0"
+            >
+                <div
+                    class="contaier-fluid p-0 m-0 row text-center padding_top justify-content-evenly"
+                >
+                    <div class="col-lg-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-service-icon01.png"
+                            alt=""
+                            class="img-fluid icon_width_3"
+                        />
+                        <p class="fw-semibold mt-5">BREAKFAST</p>
+                        <p class="text-secondary">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Consectetur voluptatem enim, sunt rerum nihil
+                            consequatur!
+                        </p>
+                    </div>
+                    <div class="col-lg-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-service-icon02.png"
+                            alt=""
+                            class="img-fluid icon_width_3"
+                        />
+                        <p class="fw-semibold mt-5">LUNCH</p>
+                        <p class="text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Corporis ducimus ad illum saepe aspernatur
+                            quae.
+                        </p>
+                    </div>
+                    <div class="col-lg-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-service-icon03.png"
+                            alt=""
+                            class="img-fluid icon_width_3"
+                        />
+                        <p class="fw-semibold mt-5">DINNER</p>
+                        <p class="text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sed, laudantium praesentium ipsum molestias
+                            blanditiis
+                        </p>
+                    </div>
+                    <div class="col-lg-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-service-icon04.png"
+                            alt=""
+                            class="img-fluid icon_width_3"
+                        />
+                        <p class="fw-semibold mt-5">DRINKS</p>
+                        <p class="text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Totam deserunt similique qui distinctio eum
+                            sequi!
+                        </p>
+                    </div>
+                </div>
+                <div class="container-fluid row padding_top p-0 m-0">
+                    <div
+                        class="container-fluid col-lg-4 bg_color row m-0 px-5 py-xl-0 py-5"
+                    >
+                        <div class="text-center align-self-center">
+                            <img
+                                src="./image/icons/restaurant-about-icon.png"
+                                alt=""
+                                class="img-fluid"
+                            />
+                            <p class="mt-lg-4">Speciality of the Restaurent</p>
+                            <p
+                                class="fs-1 fw-bold lh-1 text-break mb-lg-4 heading_color"
+                            >
+                                DISCOVER OUR TASTY MEALS
+                            </p>
+                            <p class="lh-base mb-5 text-secondary">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Deleniti, ipsum suscipit ab
+                                voluptate minima itaque ipsa quis quo quod?
+                                Recusandae. Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. Delectus, earum?
+                            </p>
+                            <a
+                                href=""
+                                class="btn bg-warning text-white rounded-pill"
+                                >BOOK A TABLE
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 bg_third bg_property p-0"></div>
+                </div>
+            </div>
+            <!-- Third-page end -->
+            <!-- Main menu start -->
+            <div
+                class="container-fluid min-vh-100 bg_fourth bg_property row p-0 justify-content-center m-0 padding_top"
+            >
+                <!-- section-1 start -->
+                <div class="col-sm-5 text-center px-0 m-0 mb-sm-5">
+                    <p class="heading_color fs-2 fw-bold">MAIN MENU</p>
+                    <p class="text-secondary mb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sed repellendus dolorum doloribus, neque ratione
+                        delectus vero quo cupiditate fuga mollitia minima, autem
+                        quo cupiditate fuga mollitia minima!
+                    </p>
+                </div>
+                <!-- section-2 start -->
+                <div class="col-sm-8 row text-center p-5 m-0">
+                    <div class="col-sm-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-menu-iteam02.png"
+                            alt=""
+                            class="icon_width_4 img-fluid"
+                        />
+                        <p class="text-warning mt-3">STARTERS</p>
+                    </div>
+                    <div class="col-sm-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-menu-iteam02.png"
+                            alt=""
+                            class="icon_width_4 img-fluid opacity-50"
+                        />
+                        <p class="text-warning mt-3">MEAT</p>
+                    </div>
+                    <div class="col-sm-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-menu-iteam03.png"
+                            alt=""
+                            class="icon_width_4 img-fluid opacity-50"
+                        />
+                        <p class="text-warning mt-3">FISH</p>
+                    </div>
+                    <div class="col-sm-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-menu-iteam04.png"
+                            alt=""
+                            class="icon_width_4 img-fluid opacity-50"
+                        />
+                        <p class="text-warning mt-3">VEGETARIAN</p>
+                    </div>
+                    <div class="col-sm-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-menu-iteam05.png"
+                            alt=""
+                            class="icon_width_4 img-fluid opacity-50"
+                        />
+                        <p class="text-warning mt-3">DESSERT</p>
+                    </div>
+                    <div class="col-sm-2 p-0">
+                        <img
+                            src="./image/icons/restaurant-menu-iteam06.png"
+                            alt=""
+                            class="icon_width_4 img-fluid opacity-50"
+                        />
+                        <p class="text-warning mt-3">DRINKS</p>
+                    </div>
+                </div>
+                <!-- section-3 start -->
+                <div class="col-sm-9 row p-0 justify-content-evenly pb-5 m-0">
+                    <div class="col-sm-5">
+                        <div
+                            class="mb-5 row p-0 border-bottom border-secondary border-opacity-25"
+                        >
+                            <div class="col-sm-10">
+                                <p class="fw-semibold mb-2">Green salad</p>
+                                <p class="text-secondary mb-3">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Sapiente quo cupiditate
+                                    fuga mollitia minima at perferendis.
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end fw-semibold">
+                                $12.00
+                            </div>
+                        </div>
+                        <div
+                            class="mb-5 row p-0 border-bottom border-secondary border-opacity-25"
+                        >
+                            <div class="col-sm-10">
+                                <p class="fw-semibold mb-2">Eggs Any Style</p>
+                                <p class="text-secondary mb-3">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.quo cupiditate fuga
+                                    mollitia minima Sapiente at perferendis.
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end fw-semibold">
+                                $23.00
+                            </div>
+                        </div>
+                        <div class="mb-5 row p-0">
+                            <div class="col-sm-10">
+                                <p class="fw-semibold mb-2">Chicken Wings</p>
+                                <p class="text-secondary mb-3">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.quo cupiditate fuga
+                                    mollitia minima Sapiente at perferendis.
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end fw-semibold">
+                                $45.00
+                            </div>
+                            <div
+                                class="col-12 border-bottom border-secondary border-opacity-25 d-sm-none"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div
+                            class="mb-5 row p-0 border-bottom border-secondary border-opacity-25"
+                        >
+                            <div class="col-sm-10">
+                                <p class="fw-semibold mb-2">
+                                    Appeteaser Platter
+                                </p>
+                                <p class="text-secondary mb-3">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.quo cupiditate fuga
+                                    mollitia minima Sapiente at perferendis.
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end fw-semibold">
+                                $23.00
+                            </div>
+                        </div>
+                        <div
+                            class="mb-5 row p-0 border-bottom border-secondary border-opacity-25"
+                        >
+                            <div class="col-sm-10">
+                                <p class="fw-semibold mb-2">
+                                    Spicy Mixed Olivers
+                                </p>
+                                <p class="text-secondary mb-3">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.quo cupiditate fuga
+                                    mollitia minima Sapiente at perferendis.
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end fw-semibold">
+                                $53.00
+                            </div>
+                        </div>
+                        <div class="mb-5 row p-0">
+                            <div class="col-sm-10">
+                                <p class="fw-semibold mb-2">Wing-Roulette</p>
+                                <p class="text-secondary mb-3">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. quo cupiditate fuga
+                                    mollitia minima Sapiente at perferendis.
+                                </p>
+                            </div>
+                            <div class="col-sm-2 text-end fw-semibold">
+                                $25.00
+                            </div>
+                            <div
+                                class="col-12 border-bottom border-secondary border-opacity-25 d-sm-none"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- section 3 end -->
+            </div>
+            <!-- Main menu end -->
+            <!-- Food gallery start -->
+            <div class="container-fluid p-0 min-vh-100 padding_top m-0">
+                <div class="container-fluid p-0 row justify-content-center m-0">
+                    <div class="col-sm-5 text-center">
+                        <p class="fs-2 fw-bold heading_color">FOOD GALLERY</p>
+                        <p class="p-0 text-secondary">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Aliquid minus officiis soluta, eaque
+                            reiciendis quasi! Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Sunt, cumque!
+                        </p>
+                    </div>
+                </div>
+                <div class="container-fluid ph_height col-12 row p-0 pt-5 m-0">
+                    <div class="col-sm-3 p-0 m-0">
+                        <img
+                            src="./image/agency-work-13.jpg"
+                            alt=""
+                            class="img-fluid w-100 ph_height_1"
+                        />
+                    </div>
+                    <div class="col-sm-3 row p-0 m-0">
+                        <div class="col-12 p-0 m-0">
+                            <img
+                                src="./image/agency-work-08.jpg"
+                                alt=""
+                                class="img-fluid w-100 ph_height_2"
+                            />
+                        </div>
+                        <div class="col-12 p-0 m-0">
+                            <img
+                                src="./image/agency-work-02.jpg"
+                                alt=""
+                                class="img-fluid w-100 ph_height_2"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-sm-3 p-0 m-0">
+                        <img
+                            src="./image/agency-work-14.jpg"
+                            alt=""
+                            class="img-fluid w-100 ph_height_1"
+                        />
+                    </div>
+                    <div class="col-sm-3 row p-0 m-0">
+                        <div class="col-12 p-0 m-0">
+                            <img
+                                src="./image/agency-work-02.jpg"
+                                alt=""
+                                class="img-fluid w-100 ph_height_2"
+                            />
+                        </div>
+                        <div class="col-12 p-0 m-0">
+                            <img
+                                src="./image/agency-work-06.jpg"
+                                alt=""
+                                class="img-fluid w-100 ph_height_2"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Food gallery end -->
+            <!-- Meet our chef start -->
+            <div class="container-fluid min-vh-100 p-0 m-0">
+                <div class="container-sm p-0 px-sm-5">
+                    <div class="row p-0 m-0 justify-content-center">
+                        <div class="text-center padding_top col-sm-6">
+                            <p class="fs-2 fw-bold heading_color">
+                                MEET OUR CHEF
+                            </p>
+                            <p class="text-secondary">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Cum neque velit animi mollitia
+                                ad modi. Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Enim, voluptates.
+                            </p>
+                        </div>
+                        <div class="row p-0 m-0 col-sm-12 pt-5">
+                            <div class="col-lg-6 bg_color padding_x">
+                                <p class="fw-semibold fs-4 m-0">
+                                    Gustave Bernier
+                                </p>
+                                <p class="text-secondary mb-4">
+                                    Excecutive Chef
+                                </p>
+                                <p class="mb-4">
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Nesciunt, nemo modi
+                                    deserunt eligendi adipisci provident. Lorem
+                                    ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Recusandae ratione hic.
+                                </p>
+                                <p class="mb-4">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Amet non doloribus animi
+                                    sapiente inventore necessitatibus? Lorem
+                                    ipsum dolor sit amet consectetur adipisicing
+                                    elit. Architecto quis provident deserunt
+                                    repudiandae quasi nihil esse dolorem
+                                    deleniti obcaecati nam? Odio numquam quo.
+                                </p>
+                                <div>
+                                    <img
+                                        src="./image/Gustave_bernier-removebg-preview-removebg-preview.png"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="bg_chef_1 col-lg-6 ph_height p-0 bg_property"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Meet our chef end -->
+            <!-- Book a table min start-->
+            <div class="container-fluid p-0 m-0 mt-5 bg_table bg_property">
+                <div class="bg_black row p-0 m-0">
+                    <div class="text-center align-self-center">
+                        <p class="text-white m-0 lt_spacing">
+                            Amazing restaurant come and
+                        </p>
+                        <p class="text-white lt_spacing">
+                            experience inspired cooking!
+                        </p>
+                        <a
+                            href="#"
+                            class="btn bg-warning text-white rounded-pill"
+                            >BOOK A TABLE</a
+                        >
+                    </div>
+                </div>
+            </div>
+            <!-- Book a table min end-->
+            <!-- Blog start -->
+            <div class="container-fluid min-vh-100 p-0 m-0">
+                <div class="container-sm padding_top px-sm-5">
+                    <div class="row p-0 m-0 justify-content-center">
+                        <div class="text-center col-lg-6 mb-5">
+                            <p class="fs-2 heading_color fw-bold">OUR BLOG</p>
+                            <p class="text-secondary">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Voluptatibus et voluptatem
+                                suscipit illo, sequi rem suscipit illo, sequi
+                                rem suscipit illo, sequi rem.
+                            </p>
+                        </div>
+                        <div
+                            class="col-12 row p-0 m-0 justify-content-center mt-5"
+                        >
+                            <div class="col-lg-3">
+                                <div class="mb-3">
+                                    <img
+                                        src="./image/agency-content-img01.jpg "
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                                <p class="fw-semibold mb-3">
+                                    WARM HUMMUS WITH SPICED LAMP
+                                </p>
+                                <p
+                                    class="text-secondary text-md-start text-center"
+                                >
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Cum, labore. Nobis fugiat
+                                    ad beatae! Repudiandae porro nihil nisi
+                                    tempora esse quisquam labore repellendus
+                                    quis necessitatibus. Tenetur nam eum
+                                    explicabo earum?
+                                </p>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="mb-3">
+                                    <img
+                                        src="./image/agency-content-img02.jpg"
+                                        alt=""
+                                        class="img-fluid w-100"
+                                    />
+                                </div>
+                                <p class="fw-semibold mb-3">
+                                    SCRATCH MADE MOSCOW MULES
+                                </p>
+                                <p
+                                    class="text-secondary text-md-start text-center"
+                                >
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Cum, labore. Nobis fugiat
+                                    ad beatae! Repudiandae porro nihil nisi
+                                    tempora esse quisquam labore repellendus
+                                    quis necessitatibus. Tenetur nam eum
+                                    explicabo earum?
+                                </p>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="mb-3">
+                                    <img
+                                        src="./image/agency-content-img03.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                                <p class="fw-semibold mb-3">
+                                    CRUMB TOPPED APPLE SLAB PIE
+                                </p>
+                                <p
+                                    class="text-secondary text-md-start text-center"
+                                >
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Cum, labore. Nobis fugiat
+                                    ad beatae! Repudiandae porro nihil nisi
+                                    tempora esse quisquam labore repellendus
+                                    quis necessitatibus. Tenetur nam eum
+                                    explicabo earum?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog end -->
+            <!-- banner last start -->
+            <div
+                class="container-fluid banner_ls_ht banner_ls_bg bg_property row p-0 m-0 mt-5"
+            >
+                <div class="col-lg-2 d-none d-lg-block"></div>
+                <div class="col-lg-4 bg_color padding_x">
+                    <p class="heading_color lt_spacing">
+                        Enjoyed the meal & friendly service!
+                    </p>
+                    <p class="text-secondary fs-3">
+                        We offer a wide variety of trainings to achieve the best
+                        results.
+                    </p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Illo consectetur praesentium possimus facere hic
+                        qui fuga velit debitis voluptatem doloremque! Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Qui
+                        facilis minima corporis necessitatibus odit! Sequi.
+                    </p>
+                    <a href="#" class="btn bg-warning text-white rounded-3"
+                        >BOOK A TABLE</a
+                    >
+                </div>
+            </div>
+            <!-- banner last end-->
+            <!-- contact details start -->
+            <div class="container-fluid">
+                <div
+                    class="row p-0 m-0 mx-sm-5 px-sm-5 mt-lg-0 mt-5 contact_ht justify-content-center align-items-center"
+                >
+                    <div class="row p-0 m-0 justify-content-center text-center">
+                        <div class="col-sm-6 col-lg-3">
+                            <i
+                                class="fa-solid fa-location-dot fs-2 mb-3 text-warning"
+                            ></i>
+                            <p class="fw-semibold">Contact Details</p>
+                            <p class="text-secondary m-0">
+                                301, The Greenhouse, custard,
+                            </p>
+                            <p class="text-secondary">
+                                Factory, London, E2 8DY.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <i
+                                class="fa-solid fa-mobile-screen-button fs-2 mb-3 text-warning"
+                            ></i>
+                            <p class="fw-semibold">Call Us Today</p>
+                            <p class="text-secondary m-0">
+                                (M)+44(0) 123 456 7890
+                            </p>
+                            <p class="text-secondary">(O)+44(0) 123 456 7890</p>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <i
+                                class="fa-solid fa-envelope fs-2 mb-3 text-warning"
+                            ></i>
+                            <p class="fw-semibold">Email</p>
+                            <p class="text-secondary m-0">
+                                noreplay@domain.com
+                            </p>
+                            <p class="text-secondary">helpus@domain.com</p>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <i
+                                class="fa-solid fa-clock fs-2 mb-3 text-warning"
+                            ></i>
+                            <p class="fw-semibold">Opening hour</p>
+                            <p class="text-secondary m-0">
+                                Mon to sat 9 AM to 11 PM
+                            </p>
+                            <p class="text-secondary">Sun 8 AM to 12 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact details end -->
+            <!-- Book a Table start -->
+            <div class="container-fluid table_bg bg_property p-0 m-0">
+                <div class="bg_black min-vh-100 row p-0 m-0 px-sm-5 px-1">
+                    <div class="align-self-center">
+                        <div
+                            class="row p-0 m-0 justify-content-center text-center pb-5"
+                        >
+                            <div class="col-lg-5">
+                                <p class="fs-1 text-white">BOOK A TABLE</p>
+                                <p class="text-white">
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Molestiae accusamus vitae
+                                    consectetur dolor alias esse nesciunt
+                                    architecto sintesse nesciunt architecto sint
+                                    doloremque eius?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <form
+                        action="#"
+                        class="align-self-center"
+                        onsubmit="return validate()"
+                    >
+                        <div
+                            class="row p-0 m-0 justify-content-center text-center pb-5"
+                        >
+                            <div class="col-lg-6">
+                                <input
+                                    type="text"
+                                    placeholder="*Your Name"
+                                    class="form-control form-control-lg form_ht"
+                                    id="nam"
+                                />
+                            </div>
+                        </div>
+                        <div
+                            class="row p-0 m-0 justify-content-center text-center pb-5"
+                        >
+                            <div class="col-lg-6">
+                                <input
+                                    type="email"
+                                    placeholder="*Your Email"
+                                    class="form-control form-control-lg form_ht"
+                                    id="e_mail"
+                                />
+                            </div>
+                        </div>
+                        <div
+                            class="row p-0 m-0 justify-content-center text-center pb-5"
+                        >
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <textarea
+                                        class="form-control"
+                                        id="exampleFormControlTextarea1"
+                                        placeholder="Your Message"
+                                        rows="5"
+                                    ></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="row p-0 m-0 justify-content-center text-center"
+                        >
+                            <div class="col-lg-6">
+                                <button
+                                    type="submit"
+                                    class="btn bg-warning text-white p-2 rounded-0"
+                                >
+                                    BOOK TABLE
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Book a Table end -->
+            <!-- footer start -->
+            <div
+                class="container-fluid row p-0 m-0 py-5 justify-content-center text-md-center"
+            >
+                <div
+                    class="col-12 text-center pb-3 border-bottom border-secondary border-opacity-50 mb-4"
+                >
+                    <img src="./image/logo/logo.png" alt="" class="img-fluid" />
+                </div>
+                <div
+                    class="col-md-12 row p-0 m-0 justify-content-between px-lg-5"
+                >
+                    <div
+                        class="col-md-4 row p-0 m-0 my-md-0 my-3 justify-content-evenly text-secondary"
+                    >
+                        <p class="col-4">Privacy policy</p>
+                        <p class="col-5 p-0">Terms and conditions</p>
+                        <p class="col-2">Legal</p>
+                    </div>
+                    <div class="col-md-4 mb-4 text-secondary text-center">
+                        &copy;2016 LeadGen is proudly powered by ThemeZaa.
+                    </div>
+                    <div
+                        class="col-md-4 row p-0 m-0 justify-content-evenly px-lg-5"
+                    >
+                        <div class="col-1">
+                            <i
+                                class="fa-brands fa-facebook-f text-secondary"
+                            ></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="fa-brands fa-twitter text-secondary"></i>
+                        </div>
+                        <div class="col-1">
+                            <i
+                                class="fa-brands fa-google-plus-g text-secondary"
+                            ></i>
+                        </div>
+                        <div class="col-1">
+                            <i
+                                class="fa-brands fa-pinterest text-secondary"
+                            ></i>
+                        </div>
+                        <div class="col-1">
+                            <i
+                                class="fa-brands fa-linkedin-in text-secondary"
+                            ></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="fa-brands fa-youtube text-secondary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer end -->
+        </div>
+        <!-- container end -->
+        <!-- fondawsome -->
+        <script
+            src="https://kit.fontawesome.com/046d649ff2.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
+        "></script>
+        <!-- js link -->
+        <script src="./js/script.js"></script>
+    </body>
+</html>

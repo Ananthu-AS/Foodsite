@@ -1,0 +1,134 @@
+/* Author : Ananthu A S */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open-Sans, Sans-serif;
+    font-size: medium;
+    /* border: #3c2317 solid; */
+}
+.padding_top {
+    padding-top: 80px !important;
+}
+.bg_property {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heading_color {
+    color: #3c2317;
+}
+/* banner start */
+.banner_bg {
+    background-image: url("../image/background/agency-slider-04.jpg");
+}
+.lg_font {
+    font-size: 75px;
+}
+.clr_icon {
+    stroke: #fff;
+    width: 25px;
+}
+.carousel-indicators > button {
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 100%;
+}
+.carousel_ht {
+    min-height: 80vh;
+}
+/* second page start */
+.icon_width {
+    width: 25px;
+    stroke: orange;
+}
+/* Third page start */
+.icon_width_3 {
+    width: 70px;
+}
+.bg_third {
+    background-image: url("../image/background/restaurant-about-bg.jpg");
+    min-height: 80vh;
+}
+/* Main menu start */
+.bg_fourth {
+    background-image: url("../image/background/restaurant-menu-bg.jpg");
+}
+.icon_width_4 {
+    width: 50px;
+}
+/* food  gallery start*/
+.ph_height_1 {
+    height: 70vh;
+}
+.ph_height_2 {
+    height: 35vh;
+}
+/* Meet our chef start */
+.bg_chef_1 {
+    background-image: url("../image/restaurant-chef-01.jpg");
+    min-height: 50vh;
+}
+.padding_x {
+    padding: 55px 70px;
+}
+.bg_color {
+    background-color: #fefbe9;
+}
+/* book a table min start */
+.bg_table {
+    background-image: url("../image/background/hero-bg9.jpg");
+    opacity: 0.9;
+}
+.lt_spacing {
+    font-size: 40px !important;
+    letter-spacing: 2px;
+}
+.bg_black {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 70vh;
+}
+/* banner last start */
+.banner_ls_ht {
+    min-height: 60vh;
+}
+.banner_ls_bg {
+    background-image: url("../image/background/fitness-about-bg.jpg");
+}
+/* contact details start */
+.contact_ht {
+    min-height: 40vh;
+}
+/* book a table */
+.table_bg {
+    background-image: url("../image/background/hero-bg3.jpg");
+}
+.form_ht {
+    height: 50px;
+}
+.form_ht_lg {
+    height: 120px;
+}
+/* media Query */
+@media screen and (max-width: 1280px) {
+    .lg_font {
+        font-size: 60px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .lg_font {
+        font-size: 45px !important;
+    }
+    .bg_fourth {
+        background-size: cover;
+        background-position: center;
+    }
+    .lt_spacing {
+        font-size: 22px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .lg_font {
+        font-size: 65px;
+    }
+}
