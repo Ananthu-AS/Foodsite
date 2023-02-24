@@ -1,8 +1,13 @@
 // Author : Ananthu AS
-function changebg() {
-    document.getElementById("navbg").style.backgroundColor =
-        "rgba(0, 0, 0, 0.8)";
-}
+let x = document.getElementById("navbg");
+window.addEventListener("scroll", () => {
+    let scrollYaxis = window.pageYOffset;
+    if (scrollYaxis > 50) {
+        x.style.backgroundColor = "rgba(0,0,0,0.8)";
+    } else {
+        x.style.backgroundColor = "";
+    }
+});
 function validate() {
     let n = /^[A-Za-z]+$/;
     nm = document.getElementById("nam").value;
